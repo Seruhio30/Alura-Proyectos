@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="gson-2.10.1 (1)" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../httpclient-4.5.14.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../httpcore5-h2-5.2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../httpclient5-fluent-5.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.." />
+          <root url="file://$MODULE_DIR$/.." />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../httpcomponents-client-4.5.14-bin/javadoc" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../Bootcamp/ScreenMatch2.0/src" />
+          <root url="file://$MODULE_DIR$/../Imercion Java/screenmatch/src" />
+          <root url="file://$MODULE_DIR$/../ScreenMatch2.1/src" />
+          <root url="file://$MODULE_DIR$/src" />
+          <root url="file://$MODULE_DIR$/../desafio2-radio Alura/src" />
+          <root url="file://$MODULE_DIR$/../desafioJava1/src" />
+          <root url="file://$MODULE_DIR$/../tarjeta credito proyecto 3/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/.." recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

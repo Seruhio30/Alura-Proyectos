@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="titulo">
+        <h1>Manten a salvo tus mensajes</h1>
+    </header>
+    <main>
+        <section class="contenedor1">
+            <div class="caja-texto">
+                <textarea id="input-text" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="contenedor-botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenedor2">
+
+            <div class="img-container" id="img-container">
+
+                <img src="img/shh.png" alt="Imagen de fondo">
+                
+            </div>
+
+            <div class="mensaje-container" id="mensaje-container" style="display: none;">
+
+                <textarea id="output-text" class="mensaje" cols="30" rows="10" placeholder="Aquí está el texto modificado"></textarea>
+
+                <div class="copy-boton">
+                    <button class="copy" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; SeruhioCode30 - 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
